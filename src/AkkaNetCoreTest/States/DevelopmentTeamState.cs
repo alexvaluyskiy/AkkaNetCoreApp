@@ -6,6 +6,6 @@ namespace AkkaNetCoreApp.States
     {
         public string IterationName { get; set; }
 
-        public List<string> Members { get; set; } = new List<string>();
+        public HashSet<string> Members { get; set; } = new HashSet<string>();
     }
 }

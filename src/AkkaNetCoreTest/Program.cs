@@ -13,14 +13,6 @@ namespace AkkaNetCoreApp
             Config config = ConfigurationFactory.ParseString(@"
                 akka {
                     loglevel = DEBUG
-                    actor {
-                        debug {
-                            receive = on
-                            autoreceive = on
-                            lifecycle = on
-                            unhandled = on
-                        }
-                    }
 
                     persistence {
                         journal {
