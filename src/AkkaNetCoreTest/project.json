@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Akka": "1.2.0-alpha1",
+    "Akka.Persistence": "1.2.0-alpha1",
+    "Akka.Persistence.Sqlite": "1.2.0-alpha1"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": { "type": "platform", "version": "1.0.0" },
+        "Microsoft.NETCore.Portable.Compatibility": "1.0.1"
+      },
+      "imports": [ "portable-net45+win8" ]
+    }
+  }
+}
