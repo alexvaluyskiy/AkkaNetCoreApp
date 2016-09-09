@@ -13,6 +13,7 @@ namespace AkkaNetCoreApp
             Config config = ConfigurationFactory.ParseString(@"
                 akka {
                     loglevel = DEBUG
+                    suppress-json-serializer-warning = on
 
                     persistence {
                         journal {
